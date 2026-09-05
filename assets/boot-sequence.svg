@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390">
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop stop-color="#e8aaa1"/><stop offset=".55" stop-color="#d47f78"/><stop offset="1" stop-color="#f1c4bc"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="390" rx="28" fill="#0d1117"/>
+<rect x="22" y="22" width="1156" height="346" rx="22" fill="#121820" stroke="#9b5d58" stroke-width="2"/>
+<circle cx="70" cy="68" r="8" fill="#e8aaa1"/><circle cx="98" cy="68" r="8" fill="#d47f78"/><circle cx="126" cy="68" r="8" fill="#f1c4bc"/>
+<text x="165" y="74" fill="#cda39d" font-family="monospace" font-size="20">SIDDHI_OS // BOOT SEQUENCE</text>
+<text x="76" y="125" fill="#e8d8d5" font-family="monospace" font-size="18">BIOS CHECK ................ OK</text>
+<text x="76" y="154" fill="#e8d8d5" font-family="monospace" font-size="18">SYSTEM CHECK .............. OK</text>
+<text x="76" y="183" fill="#e8d8d5" font-family="monospace" font-size="18">MEMORY .................... OK</text>
+<text x="76" y="212" fill="#e8d8d5" font-family="monospace" font-size="18">NETWORK ................... CONNECTED</text>
+<text x="76" y="253" fill="#e8aaa1" font-family="monospace" font-size="18">LOADING SIDDHI.EXE</text>
+<rect x="76" y="270" width="600" height="18" rx="9" fill="#262b33"/>
+<rect x="76" y="270" width="600" height="18" rx="9" fill="url(#g)">
+  <animate attributeName="width" from="0" to="600" dur="2s" fill="freeze"/>
+</rect>
+<text x="700" y="285" fill="#f1c4bc" font-family="monospace" font-size="16">100%</text>
+<text x="600" y="326" text-anchor="middle" fill="#f4e8e5" font-family="Georgia" font-size="30" filter="url(#glow)">SYSTEM ONLINE ✓</text>
+<text x="600" y="357" text-anchor="middle" fill="#e8aaa1" font-family="monospace" font-size="17">COMPUTER ENGINEER • DEVELOPER • BUILDER</text>
+</svg>
