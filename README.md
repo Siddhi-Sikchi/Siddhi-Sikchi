@@ -7,10 +7,6 @@
 </div>
 
 <div align="center">
-  <img src="./assets/profile.png" width="150" alt="Siddhi Sikchi" />
-</div>
-
-<div align="center">
   <img src="./assets/identity.svg" width="860" alt="Siddhi Sikchi — Software Developer and AI/ML Enthusiast" />
 </div>
 
