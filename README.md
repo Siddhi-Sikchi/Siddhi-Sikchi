@@ -7,6 +7,10 @@
 </div>
 
 <div align="center">
+  <img src="./assets/profile-reveal.gif" width="170" alt="Siddhi Sikchi — animated profile reveal" />
+</div>
+
+<div align="center">
   <img src="./assets/identity.svg" width="860" alt="Siddhi Sikchi — Software Developer and AI/ML Enthusiast" />
 </div>
 
@@ -66,11 +70,17 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/Siddhi-Sikchi"><img src="https://cdn.simpleicons.org/github/A27D95" height="22" alt="GitHub" /></a>
+  <a href="https://github.com/Siddhi-Sikchi" aria-label="GitHub">
+    <img src="https://img.shields.io/badge/-GitHub-0D1117?style=flat-square&logo=github&logoColor=EBCFE0" height="28" alt="GitHub" />
+  </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/siddhi-sikchi-a8a329332/"><img src="https://cdn.simpleicons.org/linkedin/A27D95" height="22" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/siddhi-sikchi-a8a329332/" aria-label="LinkedIn">
+    <img src="https://img.shields.io/badge/-LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=EBCFE0" height="28" alt="LinkedIn" />
+  </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="mailto:kishusikchi28@gmail.com"><img src="https://cdn.simpleicons.org/gmail/A27D95" height="22" alt="Email" /></a>
+  <a href="mailto:kishusikchi28@gmail.com" aria-label="Email">
+    <img src="https://img.shields.io/badge/-Email-0D1117?style=flat-square&logo=gmail&logoColor=EBCFE0" height="28" alt="Email" />
+  </a>
 </div>
 
 <div align="center">
