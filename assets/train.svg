@@ -11,7 +11,7 @@
 
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#0D1117"/>
-    <stop offset="0.55" stop-color="#111A13"/>
+    <stop offset="0.55" stop-color="#171118"/>
     <stop offset="1" stop-color="#23181E"/>
   </linearGradient>
 
@@ -19,14 +19,14 @@
   <!-- ================= TRAIN ================= -->
 
   <linearGradient id="trainBody" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#4A553B"/>
-    <stop offset="0.35" stop-color="#44323D"/>
-    <stop offset="1" stop-color="#20271E"/>
+    <stop offset="0" stop-color="#6D4058"/>
+    <stop offset="0.35" stop-color="#44303E"/>
+    <stop offset="1" stop-color="#241B24"/>
   </linearGradient>
 
   <linearGradient id="trainRoof" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#59664A"/>
-    <stop offset="1" stop-color="#30382A"/>
+    <stop offset="0" stop-color="#7A5069"/>
+    <stop offset="1" stop-color="#4B2D43"/>
   </linearGradient>
 
 
@@ -35,7 +35,7 @@
   <linearGradient id="window" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#EBCFE0"/>
     <stop offset="0.4" stop-color="#C4A3B8"/>
-    <stop offset="1" stop-color="#71805F"/>
+    <stop offset="1" stop-color="#B56F93"/>
   </linearGradient>
 
 
@@ -68,27 +68,27 @@
           width="8"
           height="65"
           rx="2"
-          fill="#29271E"/>
+          fill="#3A2432"/>
 
     <circle cx="0"
             cy="20"
             r="28"
-            fill="#1B3020"/>
+            fill="#6B3B59"/>
 
     <circle cx="-18"
             cy="35"
             r="22"
-            fill="#233D27"/>
+            fill="#7A4664"/>
 
     <circle cx="18"
             cy="35"
             r="22"
-            fill="#29472D"/>
+            fill="#8A4E70"/>
 
     <circle cx="0"
             cy="5"
             r="20"
-            fill="#315333"/>
+            fill="#99577B"/>
 
   </g>
 
@@ -137,7 +137,7 @@
 <circle cx="1030"
         cy="65"
         r="25"
-        fill="#D7E6BA"
+        fill="#F4A6C7"
         opacity=".07"/>
 
 <circle cx="1030"
@@ -246,7 +246,7 @@
       font-family="monospace"
       font-size="8"
       letter-spacing="2"
-      fill="#6F805F"
+      fill="#A95F84"
       opacity=".9">
 
   BUILDING • LEARNING • SOLVING
@@ -311,7 +311,7 @@
     <circle cx="100"
             cy="90"
             r="6"
-            fill="#D7E6BA"
+            fill="#F4A6C7"
             opacity=".08">
 
       <animate
@@ -336,7 +336,7 @@
           width="27"
           height="32"
           rx="3"
-          fill="#242C21"
+          fill="#382332"
           stroke="#A27D95"
           stroke-width="2"/>
 
@@ -345,7 +345,7 @@
           width="39"
           height="8"
           rx="3"
-          fill="#59664A"
+          fill="#7A5069"
           stroke="#A27D95"
           stroke-width="1"/>
 
@@ -375,7 +375,7 @@
       L205 205
       H170Z"
 
-      fill="#30382A"
+      fill="#4B2D43"
       stroke="#A27D95"
       stroke-width="2"/>
 
@@ -403,7 +403,7 @@
     <circle cx="213"
             cy="185"
             r="8"
-            fill="#D7E6BA">
+            fill="#F4A6C7">
 
       <animate
         attributeName="opacity"
@@ -422,7 +422,7 @@
 
     <!-- wheels -->
 
-    <g fill="#111711"
+    <g fill="#151016"
        stroke="#A27D95"
        stroke-width="2">
 
@@ -437,7 +437,7 @@
     </g>
 
 
-    <g fill="#71805F">
+    <g fill="#B56F93">
 
       <circle cx="65"
               cy="225"
@@ -474,7 +474,7 @@
         width="25"
         height="7"
         rx="3"
-        fill="#71805F"/>
+        fill="#B56F93"/>
 
 
   <!-- ================================================= -->
@@ -499,7 +499,7 @@
           height="11"
           rx="5"
           fill="url(#trainRoof)"
-          stroke="#6F805F"
+          stroke="#A95F84"
           stroke-width="1"/>
 
 
@@ -557,14 +557,14 @@
     <circle cx="280"
             cy="225"
             r="15"
-            fill="#111711"
+            fill="#151016"
             stroke="#A27D95"
             stroke-width="2"/>
 
     <circle cx="400"
             cy="225"
             r="15"
-            fill="#111711"
+            fill="#151016"
             stroke="#A27D95"
             stroke-width="2"/>
 
@@ -580,7 +580,7 @@
         width="20"
         height="7"
         rx="3"
-        fill="#71805F"/>
+        fill="#B56F93"/>
 
 
   <!-- ================================================= -->
@@ -605,7 +605,7 @@
           height="11"
           rx="5"
           fill="url(#trainRoof)"
-          stroke="#6F805F"
+          stroke="#A95F84"
           stroke-width="1"/>
 
 
@@ -661,14 +661,14 @@
     <circle cx="490"
             cy="225"
             r="15"
-            fill="#111711"
+            fill="#151016"
             stroke="#A27D95"
             stroke-width="2"/>
 
     <circle cx="610"
             cy="225"
             r="15"
-            fill="#111711"
+            fill="#151016"
             stroke="#A27D95"
             stroke-width="2"/>
 
@@ -684,7 +684,7 @@
         width="20"
         height="7"
         rx="3"
-        fill="#71805F"/>
+        fill="#B56F93"/>
 
 
   <!-- ================================================= -->
@@ -709,7 +709,7 @@
           height="11"
           rx="5"
           fill="url(#trainRoof)"
-          stroke="#6F805F"
+          stroke="#A95F84"
           stroke-width="1"/>
 
 
@@ -765,14 +765,14 @@
     <circle cx="700"
             cy="225"
             r="15"
-            fill="#111711"
+            fill="#151016"
             stroke="#A27D95"
             stroke-width="2"/>
 
     <circle cx="820"
             cy="225"
             r="15"
-            fill="#111711"
+            fill="#151016"
             stroke="#A27D95"
             stroke-width="2"/>
 
@@ -788,7 +788,7 @@
         width="20"
         height="7"
         rx="3"
-        fill="#71805F"/>
+        fill="#B56F93"/>
 
 
   <!-- ================================================= -->
@@ -813,7 +813,7 @@
           height="11"
           rx="5"
           fill="url(#trainRoof)"
-          stroke="#6F805F"
+          stroke="#A95F84"
           stroke-width="1"/>
 
 
@@ -869,14 +869,14 @@
     <circle cx="910"
             cy="225"
             r="15"
-            fill="#111711"
+            fill="#151016"
             stroke="#A27D95"
             stroke-width="2"/>
 
     <circle cx="1055"
             cy="225"
             r="15"
-            fill="#111711"
+            fill="#151016"
             stroke="#A27D95"
             stroke-width="2"/>
 
@@ -902,7 +902,7 @@
       y1="255"
       x2="1200"
       y2="255"
-      stroke="#6F805F"
+      stroke="#A95F84"
       stroke-width="2"
       opacity=".4"/>
 
@@ -911,7 +911,7 @@
 <!-- RAILWAY SLEEPERS -->
 <!-- ================================================= -->
 
-<g stroke="#71805F"
+<g stroke="#B56F93"
    stroke-width="5"
    opacity=".3">
 
@@ -986,7 +986,7 @@
 <!-- FIREFLIES -->
 <!-- ================================================= -->
 
-<g fill="#D7E6BA">
+<g fill="#F4A6C7">
 
   <circle cx="120"
           cy="280"
