@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="Live development status">
+  <style>
+    .t { font-family: "Courier New", Courier, monospace; }
+  </style>
+  <rect width="760" height="250" fill="#0D1117"/>
+  <text class="t" x="36" y="32" fill="#44323D" font-size="13">siddhi@github:~$</text>
+  <text class="t" x="198" y="32" fill="#A27D95" font-size="13">status</text>
+  <text class="t" x="36" y="70" fill="#634A58" font-size="13">SYSTEM</text>
+  <text class="t" x="180" y="70" fill="#FFFFFF" font-size="13">ONLINE</text>
+  <text class="t" x="36" y="96" fill="#634A58" font-size="13">CURRENT FOCUS</text>
+  <text class="t" x="180" y="96" fill="#FFFFFF" font-size="13">EngiSummary</text>
+  <text class="t" x="36" y="122" fill="#634A58" font-size="13">LEARNING</text>
+  <text class="t" x="180" y="122" fill="#FFFFFF" font-size="13">AWS + Linux</text>
+  <text class="t" x="36" y="148" fill="#634A58" font-size="13">EXPLORING</text>
+  <text class="t" x="180" y="148" fill="#FFFFFF" font-size="13">AI / Computer Vision</text>
+  <text class="t" x="36" y="174" fill="#634A58" font-size="13">PRACTICING</text>
+  <text class="t" x="180" y="174" fill="#FFFFFF" font-size="13">DSA</text>
+  <text class="t" x="36" y="198" fill="#634A58" font-size="13">DEVELOPING</text>
+  <text class="t" x="180" y="198" fill="#FFFFFF" font-size="13">ShetkariHit</text>
+  <circle cx="44" cy="226" r="4.5" fill="#A27D95">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.3s" repeatCount="indefinite"/>
+  </circle>
+  <text class="t" x="60" y="230" fill="#A27D95" font-size="13" letter-spacing="3">STATUS  ACTIVE</text>
+  <rect x="260" y="216" width="8" height="14" fill="#A27D95">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

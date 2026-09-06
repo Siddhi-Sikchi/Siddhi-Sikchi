@@ -1,0 +1,522 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1000 520"
+     role="img"
+     aria-label="Siddhi developer coding animation">
+
+  <defs>
+
+    <!-- CRT glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Strong green glow -->
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Screen gradient -->
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#071007"/>
+      <stop offset="50%" stop-color="#0B160B"/>
+      <stop offset="100%" stop-color="#050A05"/>
+    </linearGradient>
+
+    <!-- Code gradient -->
+    <linearGradient id="code" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5F8F55"/>
+      <stop offset="50%" stop-color="#A8C89B"/>
+      <stop offset="100%" stop-color="#6E9B65"/>
+    </linearGradient>
+
+    <!-- Scanlines -->
+    <pattern id="scanlines"
+             width="4"
+             height="8"
+             patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#C4A3B8" opacity=".035"/>
+    </pattern>
+
+    <!-- Typing clips -->
+
+    <clipPath id="c1">
+      <rect x="70" y="115" width="0" height="25">
+        <animate attributeName="width"
+                 from="0" to="260"
+                 dur="1s"
+                 begin=".6s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="c2">
+      <rect x="70" y="150" width="0" height="25">
+        <animate attributeName="width"
+                 from="0" to="420"
+                 dur="1.2s"
+                 begin="1.7s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="c3">
+      <rect x="70" y="185" width="0" height="25">
+        <animate attributeName="width"
+                 from="0" to="500"
+                 dur="1.3s"
+                 begin="3s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="c4">
+      <rect x="70" y="220" width="0" height="25">
+        <animate attributeName="width"
+                 from="0" to="560"
+                 dur="1.4s"
+                 begin="4.4s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="c5">
+      <rect x="70" y="255" width="0" height="25">
+        <animate attributeName="width"
+                 from="0" to="500"
+                 dur="1.3s"
+                 begin="5.9s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="c6">
+      <rect x="70" y="290" width="0" height="25">
+        <animate attributeName="width"
+                 from="0" to="470"
+                 dur="1.2s"
+                 begin="7.3s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================================= -->
+
+  <rect width="1000"
+        height="520"
+        rx="18"
+        fill="#030603"/>
+
+
+  <!-- ================================================= -->
+  <!-- TURBO C STYLE SCREEN -->
+  <!-- ================================================= -->
+
+  <rect x="22"
+        y="22"
+        width="956"
+        height="476"
+        rx="10"
+        fill="url(#screen)"
+        stroke="#30442D"
+        stroke-width="2"/>
+
+
+  <!-- CRT scanlines -->
+
+  <rect x="22"
+        y="22"
+        width="956"
+        height="476"
+        rx="10"
+        fill="url(#scanlines)"/>
+
+
+  <!-- ================================================= -->
+  <!-- HEADER -->
+  <!-- ================================================= -->
+
+  <rect x="22"
+        y="22"
+        width="956"
+        height="48"
+        rx="10"
+        fill="#0C170C"
+        stroke="#263B24"/>
+
+
+  <!-- Old computer buttons -->
+
+  <circle cx="48"
+          cy="46"
+          r="6"
+          fill="#536E4C"/>
+
+  <circle cx="69"
+          cy="46"
+          r="6"
+          fill="#75916A"/>
+
+  <circle cx="90"
+          cy="46"
+          r="6"
+          fill="#9FBC91"/>
+
+
+  <text x="500"
+        y="51"
+        text-anchor="middle"
+        fill="#78936E"
+        font-family="Courier New, monospace"
+        font-size="13">
+
+    TURBO_C.exe — SIDDHI.DEV
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- PROMPT -->
+  <!-- ================================================= -->
+
+  <text x="70"
+        y="95"
+        fill="#6F9A65"
+        font-family="Courier New, monospace"
+        font-size="13">
+
+    C:\PRACTICE&gt;
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- CODE -->
+  <!-- ================================================= -->
+
+  <g font-family="Courier New, monospace"
+     font-size="18"
+     fill="url(#code)">
+
+    <text x="70"
+          y="132"
+          clip-path="url(#c1)">
+      int main() {
+    </text>
+
+    <text x="70"
+          y="167"
+          clip-path="url(#c2)">
+      while(learning) { keep_building();
+    </text>
+
+    <text x="70"
+          y="202"
+          clip-path="url(#c3)">
+      if(failure) { learn(); try_again(); }
+    </text>
+
+    <text x="70"
+          y="237"
+          clip-path="url(#c4)">
+      if(problem_exists) { solve(problem); }
+    </text>
+
+    <text x="70"
+          y="272"
+          clip-path="url(#c5)">
+      knowledge += curiosity;
+    </text>
+
+    <text x="70"
+          y="307"
+          clip-path="url(#c6)">
+      progress = consistency++;
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- CURSOR -->
+  <!-- ================================================= -->
+
+  <rect x="70"
+        y="320"
+        width="10"
+        height="20"
+        fill="#A8C89B"
+        filter="url(#glow)">
+
+    <animate attributeName="y"
+             values="115;150;185;220;255;290;320"
+             dur="8.6s"
+             fill="freeze"/>
+
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur=".8s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- ================================================= -->
+  <!-- THINKING / MOTIVATION -->
+  <!-- ================================================= -->
+
+  <g font-family="Courier New, monospace"
+     text-anchor="middle">
+
+    <text x="700"
+          y="145"
+          fill="#526E4A"
+          font-size="12"
+          opacity="0">
+
+      // not every line needs to be perfect
+
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               dur="4s"
+               begin="9s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+
+    <text x="700"
+          y="180"
+          fill="#7FA374"
+          font-size="14"
+          opacity="0">
+
+      // just keep writing the next one
+
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               dur="4s"
+               begin="13s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+
+    <text x="700"
+          y="215"
+          fill="#A8C89B"
+          font-size="15"
+          font-weight="bold"
+          opacity="0">
+
+      // small code. big dreams.
+
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               dur="4s"
+               begin="17s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+
+    <text x="700"
+          y="250"
+          fill="#6F9A65"
+          font-size="13"
+          opacity="0">
+
+      // learn → build → learn → repeat
+
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               dur="4s"
+               begin="21s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- OUTPUT -->
+  <!-- ================================================= -->
+
+  <line x1="70"
+        y1="350"
+        x2="930"
+        y2="350"
+        stroke="#243722"
+        stroke-width="1"/>
+
+
+  <text x="70"
+        y="380"
+        fill="#587752"
+        font-family="Courier New, monospace"
+        font-size="13">
+
+    OUTPUT:
+  </text>
+
+
+  <!-- Technologies appear as OUTPUT -->
+
+  <g font-family="Courier New, monospace"
+     font-size="15"
+     fill="#A8C89B">
+
+    <text x="170" y="380">
+      C++
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="9s"
+               fill="freeze"/>
+    </text>
+
+    <text x="250" y="380">
+      C++
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="9.4s"
+               fill="freeze"/>
+    </text>
+
+    <text x="320" y="380">
+      PYTHON
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="9.8s"
+               fill="freeze"/>
+    </text>
+
+    <text x="425" y="380">
+      AWS
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="10.2s"
+               fill="freeze"/>
+    </text>
+
+    <text x="500" y="380">
+      AWS
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="10.6s"
+               fill="freeze"/>
+    </text>
+
+    <text x="610" y="380">
+      WEB
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="11s"
+               fill="freeze"/>
+    </text>
+
+    <text x="680" y="380">
+      AI
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="11.4s"
+               fill="freeze"/>
+    </text>
+
+    <text x="735" y="380">
+      SQL
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="11.8s"
+               fill="freeze"/>
+    </text>
+
+    <text x="800" y="380">
+      GIT
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".5s"
+               begin="12.2s"
+               fill="freeze"/>
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- FINAL TERMINAL OUTPUT -->
+  <!-- ================================================= -->
+
+  <text x="70"
+        y="425"
+        fill="#6F9A65"
+        font-family="Courier New, monospace"
+        font-size="14">
+
+    BUILD COMPLETE.
+
+  </text>
+
+
+  <text x="70"
+        y="452"
+        fill="#A8C89B"
+        font-family="Courier New, monospace"
+        font-size="16">
+
+    The code changes. The mindset grows.
+
+  </text>
+
+
+  <!-- blinking cursor -->
+
+  <rect x="510"
+        y="438"
+        width="9"
+        height="17"
+        fill="#A8C89B"
+        filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur=".8s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- status -->
+
+  <text x="925"
+        y="475"
+        text-anchor="end"
+        fill="#4F6949"
+        font-family="Courier New, monospace"
+        font-size="11">
+
+    ● RUNNING
+
+  </text>
+
+</svg>

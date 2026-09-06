@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 900 120"
+     width="900"
+     height="120">
+
+  <!-- Deep forest background -->
+  <rect width="900" height="120" fill="#11070A"/>
+
+  <!-- soft green atmosphere -->
+  <ellipse cx="180" cy="55" rx="220" ry="55"
+           fill="#351223" opacity=".28"/>
+
+  <ellipse cx="700" cy="65" rx="260" ry="60"
+           fill="#351223" opacity=".22"/>
+
+  <!-- flowing paths -->
+  <path
+    d="M-30 78
+       C100 35 190 105 310 62
+       C430 20 500 88 620 55
+       C740 25 820 80 930 42"
+    fill="none"
+    stroke="#6F8F55"
+    stroke-width="1"
+    opacity=".45"/>
+
+  <path
+    d="M-30 84
+       C110 48 190 110 320 70
+       C440 32 520 95 640 63
+       C760 35 830 88 930 52"
+    fill="none"
+    stroke="#C99AB3"
+    stroke-width=".6"
+    opacity=".2"/>
+
+
+  <!-- ================= BUTTERFLY 1 ================= -->
+
+  <g>
+
+    <ellipse cx="0" cy="0"
+             rx="2" ry="7"
+             fill="#D8E8B8"/>
+
+    <path
+      d="M-1 0
+         C-18 -20 -32 -14 -28 1
+         C-25 12 -11 12 -1 5Z"
+      fill="#6F8F55">
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1 1;.45 1;1 1"
+        dur=".55s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path
+      d="M1 0
+         C18 -20 32 -14 28 1
+         C25 12 11 12 1 5Z"
+      fill="#C99AB3">
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1 1;.45 1;1 1"
+        dur=".55s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path
+      d="M-1 -5 Q-7 -13 -10 -14
+         M1 -5 Q7 -13 10 -14"
+      fill="none"
+      stroke="#C99AB3"
+      stroke-width=".7"/>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="
+      -50 75;
+      80 42;
+      210 72;
+      340 38;
+      470 65;
+      600 35;
+      730 60;
+      950 40"
+      dur="12s"
+      repeatCount="indefinite"/>
+
+  </g>
+
+
+  <!-- ================= BUTTERFLY 2 ================= -->
+
+  <g>
+
+    <ellipse cx="0" cy="0"
+             rx="1.5" ry="6"
+             fill="#D8E8B8"/>
+
+    <path
+      d="M-1 0
+         C-14 -16 -25 -10 -21 2
+         C-18 10 -8 10 -1 4Z"
+      fill="#587543">
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1 1;.5 1;1 1"
+        dur=".48s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path
+      d="M1 0
+         C14 -16 25 -10 21 2
+         C18 10 8 10 1 4Z"
+      fill="#A27D95">
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1 1;.5 1;1 1"
+        dur=".48s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="
+      -100 95;
+      70 60;
+      240 88;
+      410 50;
+      580 82;
+      750 48;
+      960 65"
+      dur="15s"
+      begin="3s"
+      repeatCount="indefinite"/>
+
+  </g>
+
+
+  <!-- small glowing particles -->
+
+  <g fill="#C99AB3">
+
+    <circle cx="170" cy="25" r="1.2">
+      <animate
+        attributeName="opacity"
+        values=".15;.8;.15"
+        dur="3s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="430" cy="88" r=".9">
+      <animate
+        attributeName="opacity"
+        values=".1;.7;.1"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="700" cy="28" r="1">
+      <animate
+        attributeName="opacity"
+        values=".1;.8;.1"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+</svg>

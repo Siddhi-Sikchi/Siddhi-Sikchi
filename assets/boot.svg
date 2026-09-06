@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+
+<!-- PROFILE BACKGROUND -->
+<rect width="1200" height="500" fill="#0D1117"/>
+<rect width="1200" height="500" fill="#160F12" opacity="0.45"/>
+
+<!-- top status -->
+<text x="60" y="55"
+      font-family="monospace"
+      font-size="16"
+      fill="#805F72">
+  SIDDHI_OS // BOOT SEQUENCE
+</text>
+
+<text x="1140" y="55"
+      text-anchor="end"
+      font-family="monospace"
+      font-size="14"
+      fill="#A27D95">
+  ● ONLINE
+</text>
+
+<!-- terminal lines -->
+
+<text x="70" y="105"
+      font-family="monospace"
+      font-size="17"
+      fill="#A27D95"
+      opacity="0">
+  BIOS CHECK ............... OK
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.4s"
+           begin="0.2s"
+           fill="freeze"/>
+</text>
+
+<text x="70" y="140"
+      font-family="monospace"
+      font-size="17"
+      fill="#A27D95"
+      opacity="0">
+  SYSTEM CHECK ............. OK
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.4s"
+           begin="0.7s"
+           fill="freeze"/>
+</text>
+
+<text x="70" y="175"
+      font-family="monospace"
+      font-size="17"
+      fill="#A27D95"
+      opacity="0">
+  MEMORY ................... OK
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.4s"
+           begin="1.2s"
+           fill="freeze"/>
+</text>
+
+<text x="70" y="210"
+      font-family="monospace"
+      font-size="17"
+      fill="#A27D95"
+      opacity="0">
+  NETWORK ................. CONNECTED
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.4s"
+           begin="1.7s"
+           fill="freeze"/>
+</text>
+
+<!-- loading -->
+
+<text x="70" y="260"
+      font-family="monospace"
+      font-size="17"
+      fill="#C4A3B8"
+      opacity="0">
+  LOADING SIDDHI.EXE
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.4s"
+           begin="2.2s"
+           fill="freeze"/>
+</text>
+
+<!-- loading bar -->
+
+<rect x="70"
+      y="280"
+      width="500"
+      height="14"
+      rx="3"
+      fill="#21171B"/>
+
+<rect x="70"
+      y="280"
+      width="0"
+      height="14"
+      rx="3"
+      fill="#A27D95">
+
+  <animate attributeName="width"
+           from="0"
+           to="500"
+           dur="2s"
+           begin="2.3s"
+           fill="freeze"/>
+</rect>
+
+<text x="590"
+      y="293"
+      font-family="monospace"
+      font-size="14"
+      fill="#A27D95"
+      opacity="0">
+  100%
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.3s"
+           begin="4.2s"
+           fill="freeze"/>
+</text>
+
+<!-- online -->
+
+<text x="600"
+      y="350"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="22"
+      letter-spacing="6"
+      fill="#A27D95"
+      opacity="0">
+
+  SYSTEM ONLINE ✓
+
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.5s"
+           begin="4.5s"
+           fill="freeze"/>
+</text>
+
+<!-- name -->
+
+<text x="600"
+      y="415"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="48"
+      font-weight="bold"
+      letter-spacing="8"
+      fill="#FFFFFF"
+      opacity="0">
+
+  SIDDHI SIKCHI
+
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.7s"
+           begin="5s"
+           fill="freeze"/>
+</text>
+
+<text x="600"
+      y="450"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="16"
+      letter-spacing="3"
+      fill="#A27D95"
+      opacity="0">
+
+  SOFTWARE DEVELOPER • AI/ML • AI/ML BUILDER
+
+  <animate attributeName="opacity"
+           values="0;1"
+           dur="0.5s"
+           begin="5.5s"
+           fill="freeze"/>
+</text>
+
+</svg>

@@ -1,0 +1,696 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 700"
+     role="img"
+     aria-label="Siddhi technology tree">
+
+  <defs>
+
+    <!-- Background -->
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#20151A"/>
+      <stop offset="55%" stop-color="#120B0E"/>
+      <stop offset="100%" stop-color="#070505"/>
+    </radialGradient>
+
+    <!-- Trunk -->
+    <linearGradient id="trunk" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#302126"/>
+      <stop offset="45%" stop-color="#526044"/>
+      <stop offset="75%" stop-color="#7D8C68"/>
+      <stop offset="100%" stop-color="#C3D1AA"/>
+    </linearGradient>
+
+    <!-- Branch -->
+    <linearGradient id="branch" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#526044"/>
+      <stop offset="100%" stop-color="#C4A3B8"/>
+    </linearGradient>
+
+    <!-- Root -->
+    <linearGradient id="root" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#20291C"/>
+      <stop offset="50%" stop-color="#634A58"/>
+      <stop offset="100%" stop-color="#A0AE87"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Soft canopy -->
+    <radialGradient id="canopy">
+      <stop offset="0%" stop-color="#A27D95" stop-opacity=".20"/>
+      <stop offset="60%" stop-color="#805F72" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#080B08" stop-opacity="0"/>
+    </radialGradient>
+
+  </defs>
+
+
+  <!-- ================= BACKGROUND ================= -->
+
+  <rect width="1200"
+        height="700"
+        fill="url(#bg)"/>
+
+  <ellipse cx="600"
+           cy="250"
+           rx="450"
+           ry="300"
+           fill="url(#canopy)"/>
+
+
+  <!-- ================= SMALL FLOATING PARTICLES ================= -->
+
+  <g fill="#AAB796" opacity=".45">
+
+    <circle cx="130" cy="150" r="1.5">
+      <animate attributeName="cy"
+               values="150;135;150"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="210" cy="230" r="1">
+      <animate attributeName="cy"
+               values="230;215;230"
+               dur="3.8s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1010" cy="180" r="1.5">
+      <animate attributeName="cy"
+               values="180;165;180"
+               dur="3.2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1080" cy="270" r="1">
+      <animate attributeName="cy"
+               values="270;250;270"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- ROOT PHILOSOPHY / TEXT -->
+  <!-- ROOTS GROW DIRECTLY UNDER THESE WORDS -->
+  <!-- ================================================= -->
+
+  <g font-family="Georgia, serif"
+     font-size="15"
+     letter-spacing="3"
+     text-anchor="middle">
+
+    <text x="130" y="575" fill="#805F72">
+      LOGIC
+    </text>
+
+    <text x="300" y="605" fill="#7D8C68">
+      SOFTWARE
+    </text>
+
+    <text x="445" y="625" fill="#A27D95">
+      CONSISTENCY
+    </text>
+
+    <text x="755" y="625" fill="#A27D95">
+      LEARNING
+    </text>
+
+    <text x="900" y="605" fill="#7D8C68">
+      CURIOSITY
+    </text>
+
+    <text x="1070" y="575" fill="#805F72">
+      PROBLEM SOLVING
+    </text>
+
+  </g>
+
+
+  <!-- ================= ROOT SYSTEM ================= -->
+
+  <g fill="none"
+     stroke="url(#root)"
+     stroke-linecap="round"
+     filter="url(#glow)">
+
+    <!-- Main left root -->
+    <path d="M600 485
+             C540 510 475 540 390 555
+             C300 575 205 570 105 570"
+          stroke-width="10"
+          stroke-dasharray="560"
+          stroke-dashoffset="560">
+
+      <animate attributeName="stroke-dashoffset"
+               values="560;0;0;560"
+               dur="8s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Main right root -->
+    <path d="M600 485
+             C660 510 725 540 810 555
+             C900 575 995 570 1095 570"
+          stroke-width="10"
+          stroke-dasharray="560"
+          stroke-dashoffset="560">
+
+      <animate attributeName="stroke-dashoffset"
+               values="560;0;0;560"
+               dur="8s"
+               begin=".3s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Root into LOGIC -->
+    <path d="M570 500
+             C500 530 405 560 300 565
+             C235 570 175 570 130 570"
+          stroke-width="5"
+          stroke-dasharray="420"
+          stroke-dashoffset="420">
+
+      <animate attributeName="stroke-dashoffset"
+               values="420;0;0;420"
+               dur="7s"
+               begin=".5s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Root into SOFTWARE -->
+    <path d="M585 505
+             C530 540 455 575 350 600
+             C325 605 305 605 280 605"
+          stroke-width="4"
+          stroke-dasharray="300"
+          stroke-dashoffset="300">
+
+      <animate attributeName="stroke-dashoffset"
+               values="300;0;0;300"
+               dur="7s"
+               begin=".8s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Root into CONSISTENCY -->
+    <path d="M595 500
+             C560 545 515 590 445 625"
+          stroke-width="4"
+          stroke-dasharray="190"
+          stroke-dashoffset="190">
+
+      <animate attributeName="stroke-dashoffset"
+               values="190;0;0;190"
+               dur="6.5s"
+               begin="1s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Root into LEARNING -->
+    <path d="M605 500
+             C640 545 685 590 755 625"
+          stroke-width="4"
+          stroke-dasharray="190"
+          stroke-dashoffset="190">
+
+      <animate attributeName="stroke-dashoffset"
+               values="190;0;0;190"
+               dur="6.5s"
+               begin="1.2s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Root into CURIOSITY -->
+    <path d="M615 505
+             C670 540 745 575 850 600
+             C875 605 900 605 900 605"
+          stroke-width="4"
+          stroke-dasharray="300"
+          stroke-dashoffset="300">
+
+      <animate attributeName="stroke-dashoffset"
+               values="300;0;0;300"
+               dur="7s"
+               begin="1.4s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Root into PROBLEM SOLVING -->
+    <path d="M630 500
+             C700 530 795 560 900 565
+             C970 570 1030 570 1070 570"
+          stroke-width="5"
+          stroke-dasharray="420"
+          stroke-dashoffset="420">
+
+      <animate attributeName="stroke-dashoffset"
+               values="420;0;0;420"
+               dur="7s"
+               begin="1.6s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- Fine roots -->
+    <path d="M390 555 C350 545 310 535 270 520"
+          stroke-width="2"/>
+
+    <path d="M350 600 C320 585 290 570 255 550"
+          stroke-width="2"/>
+
+    <path d="M810 555 C850 545 890 535 930 520"
+          stroke-width="2"/>
+
+    <path d="M850 600 C880 585 910 570 945 550"
+          stroke-width="2"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- TREE TRUNK -->
+  <!-- ================================================= -->
+
+  <path d="M600 510
+           C575 455 610 400 590 345
+           C570 290 610 235 595 180
+           C590 150 600 125 600 105"
+        fill="none"
+        stroke="url(#trunk)"
+        stroke-width="34"
+        stroke-linecap="round"
+        filter="url(#glow)"
+        stroke-dasharray="470"
+        stroke-dashoffset="470">
+
+    <animate attributeName="stroke-dashoffset"
+             values="470;0;0;470"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <!-- trunk highlight -->
+
+  <path d="M600 500
+           C585 445 605 400 595 345
+           C585 290 605 235 600 175"
+        fill="none"
+        stroke="#D0DBBB"
+        stroke-opacity=".18"
+        stroke-width="6"
+        stroke-linecap="round"/>
+
+
+  <!-- ================================================= -->
+  <!-- BRANCHES -->
+  <!-- ================================================= -->
+
+  <g fill="none"
+     stroke="url(#branch)"
+     stroke-linecap="round"
+     filter="url(#glow)">
+
+    <!-- LEFT MAIN -->
+    <path d="M595 370
+             C520 345 450 300 370 245
+             C290 190 205 145 120 125"
+          stroke-width="10"
+          stroke-dasharray="520"
+          stroke-dashoffset="520">
+
+      <animate attributeName="stroke-dashoffset"
+               values="520;0;0;520"
+               dur="8s"
+               begin="1s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- RIGHT MAIN -->
+    <path d="M605 370
+             C680 345 750 300 830 245
+             C910 190 995 145 1080 125"
+          stroke-width="10"
+          stroke-dasharray="520"
+          stroke-dashoffset="520">
+
+      <animate attributeName="stroke-dashoffset"
+               values="520;0;0;520"
+               dur="8s"
+               begin="1.2s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- LEFT UPPER -->
+    <path d="M595 290
+             C535 250 485 205 445 150
+             C420 115 390 90 350 65"
+          stroke-width="6"
+          stroke-dasharray="320"
+          stroke-dashoffset="320">
+
+      <animate attributeName="stroke-dashoffset"
+               values="320;0;0;320"
+               dur="7s"
+               begin="2s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- RIGHT UPPER -->
+    <path d="M605 290
+             C665 250 715 205 755 150
+             C780 115 810 90 850 65"
+          stroke-width="6"
+          stroke-dasharray="320"
+          stroke-dashoffset="320">
+
+      <animate attributeName="stroke-dashoffset"
+               values="320;0;0;320"
+               dur="7s"
+               begin="2.2s"
+               repeatCount="indefinite"/>
+    </path>
+
+
+    <!-- SMALL LEFT -->
+    <path d="M370 245
+             C320 215 275 175 235 130"
+          stroke-width="4"/>
+
+
+    <!-- SMALL RIGHT -->
+    <path d="M830 245
+             C880 215 925 175 965 130"
+          stroke-width="4"/>
+
+
+    <!-- TOP LEFT -->
+    <path d="M445 150
+             C430 115 425 80 430 45"
+          stroke-width="3"/>
+
+
+    <!-- TOP RIGHT -->
+    <path d="M755 150
+             C770 115 775 80 770 45"
+          stroke-width="3"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- TECHNOLOGY FLOWERS / BLOSSOMS -->
+  <!-- ================================================= -->
+
+  <g font-family="Arial, sans-serif"
+     text-anchor="middle">
+
+    <!-- C++ -->
+    <g transform="translate(120 125)">
+      <g fill="#C4A3B8" opacity=".9">
+        <circle cx="0" cy="-10" r="7"/>
+        <circle cx="9" cy="-3" r="7"/>
+        <circle cx="6" cy="8" r="7"/>
+        <circle cx="-6" cy="8" r="7"/>
+        <circle cx="-9" cy="-3" r="7"/>
+        <circle cx="0" cy="0" r="5" fill="#634A58"/>
+      </g>
+
+      <text x="0" y="-25"
+            fill="#D3DEC0"
+            font-size="16"
+            font-weight="bold">
+        C++
+      </text>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="120 125;120 121;120 125"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </g>
+
+
+    <!-- C++ -->
+    <g transform="translate(235 130)">
+      <g fill="#A27D95">
+        <circle cx="0" cy="-8" r="6"/>
+        <circle cx="8" cy="0" r="6"/>
+        <circle cx="0" cy="8" r="6"/>
+        <circle cx="-8" cy="0" r="6"/>
+        <circle cx="0" cy="0" r="4" fill="#44323D"/>
+      </g>
+
+      <text x="0"
+            y="27"
+            fill="#C4A3B8"
+            font-size="14">
+        C++
+      </text>
+    </g>
+
+
+    <!-- PYTHON -->
+    <g transform="translate(430 45)">
+      <g fill="#C4A3B8">
+        <circle cx="0" cy="-9" r="7"/>
+        <circle cx="9" cy="0" r="7"/>
+        <circle cx="0" cy="9" r="7"/>
+        <circle cx="-9" cy="0" r="7"/>
+        <circle cx="0" cy="0" r="4" fill="#526044"/>
+      </g>
+
+      <text x="0"
+            y="-24"
+            fill="#D3DEC0"
+            font-size="15"
+            font-weight="bold">
+        PYTHON
+      </text>
+    </g>
+
+
+    <!-- AI -->
+    <g transform="translate(350 65)">
+      <circle r="8"
+              fill="#AAB796"
+              filter="url(#glow)"/>
+
+      <text x="0"
+            y="-16"
+            fill="#C4A3B8"
+            font-size="13">
+        AI / ML
+      </text>
+    </g>
+
+
+    <!-- AWS / CLOUD -->
+    <g transform="translate(445 150)">
+      <g fill="#A27D95">
+        <circle cx="0" cy="-8" r="6"/>
+        <circle cx="8" cy="0" r="6"/>
+        <circle cx="0" cy="8" r="6"/>
+        <circle cx="-8" cy="0" r="6"/>
+        <circle cx="0" cy="0" r="4" fill="#44323D"/>
+      </g>
+
+      <text x="0"
+            y="25"
+            fill="#C4A3B8"
+            font-size="13">
+        AWS / CLOUD
+      </text>
+    </g>
+
+
+    <!-- AWS -->
+    <g transform="translate(1080 125)">
+      <g fill="#C4A3B8">
+        <circle cx="0" cy="-10" r="7"/>
+        <circle cx="9" cy="-3" r="7"/>
+        <circle cx="6" cy="8" r="7"/>
+        <circle cx="-6" cy="8" r="7"/>
+        <circle cx="-9" cy="-3" r="7"/>
+        <circle cx="0" cy="0" r="5" fill="#634A58"/>
+      </g>
+
+      <text x="0"
+            y="-25"
+            fill="#D3DEC0"
+            font-size="16"
+            font-weight="bold">
+        AWS
+      </text>
+    </g>
+
+
+    <!-- WEB -->
+    <g transform="translate(965 130)">
+      <g fill="#A27D95">
+        <circle cx="0" cy="-8" r="6"/>
+        <circle cx="8" cy="0" r="6"/>
+        <circle cx="0" cy="8" r="6"/>
+        <circle cx="-8" cy="0" r="6"/>
+        <circle cx="0" cy="0" r="4" fill="#44323D"/>
+      </g>
+
+      <text x="0"
+            y="27"
+            fill="#C4A3B8"
+            font-size="14">
+        WEB
+      </text>
+    </g>
+
+
+    <!-- REACT -->
+    <g transform="translate(830 245)">
+      <circle r="8"
+              fill="#AAB796"
+              filter="url(#glow)"/>
+
+      <text x="0"
+            y="26"
+            fill="#C4A3B8"
+            font-size="14">
+        REACT
+      </text>
+    </g>
+
+
+    <!-- SQL -->
+    <g transform="translate(755 150)">
+      <circle r="8"
+              fill="#A27D95"
+              filter="url(#glow)"/>
+
+      <text x="0"
+            y="-16"
+            fill="#C4A3B8"
+            font-size="13">
+        SQL
+      </text>
+    </g>
+
+
+    <!-- GIT -->
+    <g transform="translate(850 65)">
+      <circle r="8"
+              fill="#AAB796"
+              filter="url(#glow)"/>
+
+      <text x="0"
+            y="-16"
+            fill="#C4A3B8"
+            font-size="13">
+        GIT
+      </text>
+    </g>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- EXTRA LEAVES -->
+  <!-- ================================================= -->
+
+  <g fill="#C4A3B8"
+     filter="url(#glow)">
+
+    <circle cx="180" cy="165" r="4">
+      <animate attributeName="r"
+               values="3;5;3"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="290" cy="185" r="3"/>
+    <circle cx="390" cy="110" r="3"/>
+    <circle cx="520" cy="100" r="3"/>
+
+    <circle cx="680" cy="100" r="3"/>
+    <circle cx="810" cy="185" r="3"/>
+    <circle cx="920" cy="165" r="4"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- ROOT GLOW POINTS -->
+  <!-- ================================================= -->
+
+  <g fill="#C3D1AA"
+     filter="url(#glow)">
+
+    <circle cx="130" cy="570" r="3">
+      <animate attributeName="opacity"
+               values=".3;1;.3"
+               dur="2.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="280" cy="605" r="3">
+      <animate attributeName="opacity"
+               values=".4;1;.4"
+               dur="2.8s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="445" cy="625" r="3">
+      <animate attributeName="opacity"
+               values=".3;1;.3"
+               dur="2.4s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="755" cy="625" r="3">
+      <animate attributeName="opacity"
+               values=".3;1;.3"
+               dur="2.6s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="900" cy="605" r="3">
+      <animate attributeName="opacity"
+               values=".4;1;.4"
+               dur="2.9s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1070" cy="570" r="3">
+      <animate attributeName="opacity"
+               values=".3;1;.3"
+               dur="2.7s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+</svg>

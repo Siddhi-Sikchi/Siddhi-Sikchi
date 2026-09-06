@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="Siddhi Sikchi education and experience path">
+<style>.y{font-family:"Courier New",monospace;fill:#A27D95;font-size:12px}.n{font-family:"Trebuchet MS","Segoe UI",sans-serif;fill:#FFFFFF;font-size:16px}.d{font-family:"Courier New",monospace;fill:#805F72;font-size:12px}</style>
+<rect width="900" height="300" fill="#0D1117"/>
+<path d="M30 35 V265" stroke="#44323D" stroke-width="2"/>
+<circle cx="30" cy="45" r="5" fill="#A27D95"/><text class="y" x="55" y="38">2026 — PRESENT</text><text class="n" x="55" y="64">VedNovaAI Technology · Software Developer Intern</text><text class="d" x="55" y="86">Web features · E-commerce · Bug fixing · Product development</text>
+<circle cx="30" cy="130" r="5" fill="#A27D95"/><text class="y" x="55" y="123">2024 — PRESENT</text><text class="n" x="55" y="149">Vishwakarma Institute of Technology, Pune</text><text class="d" x="55" y="171">B.Tech · Computer Engineering · 3rd Year · CGPA 8.85</text>
+<circle cx="30" cy="215" r="5" fill="#A27D95"/><text class="y" x="55" y="208">FOCUS</text><text class="n" x="55" y="234">Software Development + AI / ML</text><text class="d" x="55" y="256">DSA · Cloud · Generative AI · Practical problem solving</text>
+<circle cx="30" cy="265" r="3" fill="#44323D"/><text class="d" x="55" y="282">BUILDING TODAY · LEARNING EVERY DAY</text>
+</svg>
